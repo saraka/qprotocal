@@ -3,11 +3,12 @@ package qprotocal
 import (
 	"bytes"
 	"encoding/hex"
-	"fmt"
-	"github.com/lunixbochs/struc"
+	"math/big"
 	"net"
 	"strconv"
 	"time"
+
+	"github.com/lunixbochs/struc"
 )
 
 type QQ struct {
